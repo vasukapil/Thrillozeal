@@ -1,0 +1,43 @@
+.a1,.a2,.a3,.a4,.a5{
+
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #57BEBE;
+}
+.button-container{
+    width: 100%;
+    text-align: left;
+    margin-top: 2rem;
+
+}
+.button-container a{
+
+border-radius: 40px;
+border-color:  #57BEBE;
+width: 168.35px;
+height: 200px;
+padding: 15px;
+
+}
+.a1{
+    border-color: #57BEBE;
+
+}
+.card-full{
+    height: auto;
+    width: 60vw;
+    border: 2px solid black;
+    text-align: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    background: #FFFFFF;
+border: 1px solid #909090;
+box-sizing: border-box;
+border-radius: 10px;
+}

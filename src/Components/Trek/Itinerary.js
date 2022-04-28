@@ -1,0 +1,170 @@
+import React from "react";
+import { Accordion } from '@mui/material'
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import Typography from '@mui/material/Typography';
+
+const Itinerary = () => {
+  return (
+    <div className="Card-Wrapper">
+      <h2>Trek Itinerary </h2>
+      <Accordion>
+        <AccordionSummary
+     
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography>
+            Day 1 - Delhi to Baniyakund, Chopta (430 km/11 hrs)
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <ul>
+            <li>We'll begin our journey at 6 a.m from Delhi.</li>
+            <li>
+              Considering the meal breaks, it'll take around 11 hours to reach
+              Chopta covering a distance of about 430 km.
+            </li>
+            <li>
+              We'll have our overnight at Baniyakund in Chopta either at a
+              lodging facility or a campsite, depending on your tour package.
+            </li>
+            <li>
+              En route to Chopta from Delhi, we'll pass Devprayag, Srinagar,
+              Rudraprayag, and Ukhimath.
+            </li>
+             
+            <li>
+              We'll make a small halt at Devprayag to witness the beauty of
+              Alaknanda and Bhagirathi streams when they confluence to become
+              Ganga.
+            </li>
+            <li>
+              {" "}
+              By 5 in the evening, we'll reach Baniyakund and relax there with
+              the overnight stay.
+            </li>
+          </ul>
+
+          <div>
+              <img></img>
+              <img></img>
+              <img></img>
+              <img></img>
+              <img></img>
+          </div>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+         
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography> Day 2 - Chopta to Tungnath to Chopta (5 km/5-6 hrs - one way)</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+        <ul>
+
+            <li>
+            The trek to Tungnath from Chopta is about 5 km and will take around 5-6 hours to reach the temple. We'll begin trekking Chopta by early morning 7 a.m.
+
+            </li>
+            <li>Upon reaching the temple, you can offer your prayers to the Lord.
+</li>
+            <li>
+            Then we'll continue ascending towards the peak of Chandrashila. The complete one-way trek will end in a max of 6 hours, so we'll have a good amount of time to explore the summit of Chandrashila.
+
+            </li>
+            <li>
+            After that, we'll come back to Chopta by descending through the same route.
+
+            </li>
+             
+            <li>
+            After that, we'll come back to Chopta by descending through the same route.
+
+            </li>
+          </ul>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion disabled>
+        <AccordionSummary
+        
+          aria-controls="panel3a-content"
+          id="panel3a-header"
+        >
+         <Typography> // Day 3 - Chopta to Haridwar (230 km/8 hrs)
+</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+        <ul>
+
+            <li>
+             On our third day, we'll begin our return journey to Delhi by 7 am in the morning after having our breakfast.
+
+
+            </li>
+            <li>Following 11 hours of drive and meal breaks, we'll reach Delhi by 6 pm in the evening, where our tour will officially end.
+
+</li>
+</ul>
+          <div>
+              <img></img>
+              <img></img>
+              <img></img>
+              <img></img>
+          </div>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion>
+        <AccordionSummary
+        
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography> Additional Information</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+        <ul>
+
+            <li>
+            Note:
+
+            </li>
+            <li>// Google maps provide a wrong location to Chopta that is extremely close to Rudraprayag and about 57 km away from Sari. The Chopta mentioned in our itinerary lies on the route to Tungnath.
+
+</li>
+            <li>
+             All timings are subject to changes as per the ongoing Covid restrictions.
+
+            </li>
+            <li>
+            Meal details
+
+            </li>
+             
+            <li>
+            Breakfast - tea/coffee, paratha, toast, sandwich (depending on availability).
+
+
+            </li>
+            <li>
+            Lunch - roti with vegetable, paratha, dal &amp rice, achar, salad, sweet.
+            </li>
+            <li>
+
+            Dinner - rice &amp gravy, roti/paratha, achar, salad, sweet.
+
+            </li>
+            <li>// Snacks - tea/coffee, biscuits, sandwiches.
+</li>
+          </ul>
+        </AccordionDetails>
+      </Accordion>
+    </div>
+  );
+};
+
+export default Itinerary;

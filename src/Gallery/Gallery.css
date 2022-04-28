@@ -1,0 +1,61 @@
+:root{
+    --black: #000000;
+    --fountain-blue: #57bebe;
+    --gray: #909090;
+    --white: #ffffff;
+    --font-size-l2: 14px;
+    --font-size-s: 10px;
+    --font-size-xl2: 16px;
+    --font-size-xxl2: 18px;
+    --font-size-xxxl: 22px;
+    --font-size-xxxl2: 20px;
+    --font-size-xxxxl: 28px;
+    --font-family-montserrat: "Montserrat", Helvetica;
+}
+
+.Gallery-Container{
+    width: 100%;
+    display: flex;
+    padding-top: 1%;
+    
+
+}
+.one{
+
+    flex: 1;
+
+}
+.two{
+
+    flex: 1;
+}
+.three{
+
+    flex: 1;
+}
+.four{
+    flex: 1;
+
+}
+
+.montserrat-semi-bold-black-14px {
+color: var(--black);
+font-family: var(--font-family-montserrat);
+font-size: var(--font-size-l2);
+font-style: normal;
+font-weight: 600;
+}
+
+.chopta{
+color: var(--fountain-blue);
+font-family: var(--font-family-montserrat);
+font-size: var(--font-size-l2);
+font-weight: 600;
+letter-spacing: 0;
+margin-left: 9px;
+min-height: 17px;
+}
+.below-text{
+    display: flex;
+    padding: 1.5%;
+}
