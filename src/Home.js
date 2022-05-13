@@ -10,6 +10,7 @@ import Footer from "./Components/Footer/Footer";
 import Magicslider from "./Main/Magicslider";
 import Hero from "./Main/Hero";
 import Travel from "./Main/Travel";
+import Package from "./Components/Trek/Package";
 
 const Home = () => {
     return (
@@ -25,6 +26,7 @@ const Home = () => {
            <Magicslider/>
            <Hero/>
            <Travel/>
+      
      </div>
     )
 }

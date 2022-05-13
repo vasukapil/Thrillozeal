@@ -35,6 +35,8 @@ const Magicslider = () => {
         </Slider>
         </div>
   )
+
+  
 }
 
 export default Magicslider

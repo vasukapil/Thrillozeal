@@ -135,6 +135,109 @@ const Itinerary = () => {
       <Accordion>
         <AccordionSummary
         
+          aria-controls="panel3a-content"
+          id="panel3a-header"
+        >
+         <Typography> Day 4 -  Kedar Kharak to Kedar tal (Trek 10kms- Two Way Total)
+</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+        <ul>
+
+            <li>
+            Start next day early morning towards the heavenly kedartal after having a hearty meal. 
+
+
+            </li>
+            <li>The trail is small rivers and is rocky, keep following the markings to ensure that you are on the right path.
+
+</li>
+          <li>
+          You will reach kedartal which is 4780 m above the sea level.
+          </li>
+          <li>Explore the area and the Kedartal lake and then head back towards your campsite.</li>
+</ul>
+          <div className="image-box">
+              <img src="./Images/Rectangle 3.png"></img>
+              <img src="./Images/Rectangle 4.png"></img>
+              <img src="./Images/Rectangle 5.png"></img>
+              <img src="./Images/Rectangle 6.png"></img>
+            
+          </div>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion>
+        <AccordionSummary
+        
+          aria-controls="panel3a-content"
+          id="panel3a-header"
+        >
+         <Typography>Day 5 - Kedar Kharak to Gangotri (Trek 19kms- One way)
+</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+        <ul>
+
+            <li>
+            Bid adeiu to this beautiful trek and start your return journey towards gangotri.
+
+
+            </li>
+            <li>Ascend down to the gangotri region with a long downward trek of 7-8 hrs.
+
+</li>
+          <li>Enjoy the return trek consisting of beautiful views and trails.</li>
+          <li>Come back to gagotri, rest and call it a day.</li>
+</ul>
+          <div className="image-box">
+              <img src="./Images/Rectangle 3.png"></img>
+              <img src="./Images/Rectangle 4.png"></img>
+              <img src="./Images/Rectangle 5.png"></img>
+              <img src="./Images/Rectangle 6.png"></img>
+            
+          </div>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion>
+        <AccordionSummary
+        
+          aria-controls="panel3a-content"
+          id="panel3a-header"
+        >
+         <Typography> Day 6  - Gangotri To Harsil and back to Doon (250 kms - 12/14 Hours)
+</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+        <ul>
+
+            <li>
+            On our final day we will start early and reach Harsil valley, which is located at a distance of 26 kms from Gangotri.
+
+
+            </li>
+            <li>Explore the beautiful Harsil Valley.
+
+</li>
+            <li>We will also visit the Gartang Gali which is a famous spot opened in 2021 for the tourists. It is located at a distance of 20 kms from Harsil.</li>
+
+            <li>Finally in the afternoon we will start our return journey to Dehradun.</li>
+            <li>This magical trek and trip has finally come to an end</li>
+</ul>
+          <div className="image-box">
+              <img src="./Images/Rectangle 3.png"></img>
+              <img src="./Images/Rectangle 4.png"></img>
+              <img src="./Images/Rectangle 5.png"></img>
+              <img src="./Images/Rectangle 6.png"></img>
+            
+          </div>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion>
+        <AccordionSummary
+        
           aria-controls="panel2a-content"
           id="panel2a-header"
         >

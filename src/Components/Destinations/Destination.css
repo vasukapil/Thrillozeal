@@ -42,3 +42,70 @@
 .flex-destination{
     text-align: center;
 }
+.slider-splide{
+    text-align: center;
+}
+.one1 img{
+    margin-right: 6px;
+}
+.head{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.one1 p{
+    margin-top: 10px;
+}
+.one1 p:nth-child(2){
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 32px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.one1 p:nth-child(4){
+    display: inline-block;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+
+/* identical to box height */
+
+
+color: #000000;
+}
+.one1 p:nth-child(5){
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 34px;
+
+color: #000000;
+}
+.one1 p:nth-child(6){
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-decoration-line: line-through;
+
+color: rgba(0, 0, 0, 0.55);
+
+}
