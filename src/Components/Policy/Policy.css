@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.policy-wrapper{
+
+background: rgba(87, 190, 190, 0.56);
+border: 1px solid #909090;
+border-radius: 50px;
+margin:30px;
+}
+.policy-container{
+    padding:50px;
+}
+

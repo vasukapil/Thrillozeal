@@ -4,7 +4,7 @@ import './Trek.css';
 export const Trek = () => {
   return (
     <div className="Trek">
-        <h1>Trek Highlights</h1>
+        <h1 className="box-heading">Trek Highlights</h1>
         <div className="bullet-points">
             <ul>
                 <div><img src="./Images/Resize Vertical.png"></img><li>Elevation - 4,090 m above sea level (highest point)</li></div>

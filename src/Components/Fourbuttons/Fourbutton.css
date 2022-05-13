@@ -1,6 +1,6 @@
+
+
 .a1,.a2,.a3,.a4,.a5{
-
-
 
 font-family: 'Montserrat';
 font-style: normal;
@@ -9,26 +9,31 @@ font-size: 20px;
 line-height: 24px;
 
 color: #57BEBE;
+border: 1px solid #57BEBE;
+margin: 5px;
+width: 168.35px;
+height: 49.51px;
+border-radius: 40px;
+padding: 8px;
+}
+.a1:hover,.a2:hover,.a3:hover,.a4:hover,.a5:hover{
+    background-color: #57BEBE;
+    color: white;
+    cursor: pointer;
+}
+.button-container a:active{
+    background-color:#57BEBE;
 }
 .button-container{
     width: 100%;
     text-align: left;
     margin-top: 2rem;
+    margin-left: 1.5rem;
 
 }
-.button-container a{
 
-border-radius: 40px;
-border-color:  #57BEBE;
-width: 168.35px;
-height: 200px;
-padding: 15px;
 
-}
-.a1{
-    border-color: #57BEBE;
 
-}
 .card-full{
     height: auto;
     width: 60vw;

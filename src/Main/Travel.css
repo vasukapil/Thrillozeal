@@ -1,0 +1,14 @@
+.travel-img-container{
+    width: 100%;
+    display: flex ;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+.travel-img-container img{
+    
+    object-fit: cover;
+    
+}
+.column{
+    flex:25%;
+}

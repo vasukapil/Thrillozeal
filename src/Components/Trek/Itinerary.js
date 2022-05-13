@@ -3,11 +3,12 @@ import { Accordion } from '@mui/material'
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
-
+import './Itinerary.css'
 const Itinerary = () => {
   return (
     <div className="Card-Wrapper">
-      <h2>Trek Itinerary </h2>
+      <h2 className=" box-heading">Trek Itinerary </h2>
+    <div className="Accordian-Wrapper">
       <Accordion>
         <AccordionSummary
      
@@ -18,7 +19,7 @@ const Itinerary = () => {
             Day 1 - Delhi to Baniyakund, Chopta (430 km/11 hrs)
           </Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails className="AccordionDetails">
           <ul>
             <li>We'll begin our journey at 6 a.m from Delhi.</li>
             <li>
@@ -46,12 +47,12 @@ const Itinerary = () => {
             </li>
           </ul>
 
-          <div>
-              <img></img>
-              <img></img>
-              <img></img>
-              <img></img>
-              <img></img>
+          <div className="image-box">
+              <img src="./Images/Rectangle 65.png"></img>
+              <img src="./Images/Rectangle 66.png"></img>
+              <img src="./Images/Rectangle 67.png"></img>
+              <img src="./Images/Rectangle 68.png"></img>
+              
           </div>
         </AccordionDetails>
       </Accordion>
@@ -85,16 +86,28 @@ const Itinerary = () => {
             After that, we'll come back to Chopta by descending through the same route.
 
             </li>
+            <li>
+            In Chopta, we'll have another night's stay at the same facility we stayed the first night.
+            </li>
           </ul>
+
+          <div className="image-box">
+              <img src="./Images/Rectangle 74.png"></img>
+              <img src="./Images/Rectangle 75.png"></img>
+              <img src="./Images/Rectangle 76.png"></img>
+              <img src="./Images/Rectangle 89.png"></img>
+          </div>
+
+
         </AccordionDetails>
       </Accordion>
-      <Accordion disabled>
+      <Accordion>
         <AccordionSummary
         
           aria-controls="panel3a-content"
           id="panel3a-header"
         >
-         <Typography> // Day 3 - Chopta to Haridwar (230 km/8 hrs)
+         <Typography> Day 3 - Chopta to Haridwar (230 km/8 hrs)
 </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -109,11 +122,12 @@ const Itinerary = () => {
 
 </li>
 </ul>
-          <div>
-              <img></img>
-              <img></img>
-              <img></img>
-              <img></img>
+          <div className="image-box">
+              <img src="./Images/Rectangle 3.png"></img>
+              <img src="./Images/Rectangle 4.png"></img>
+              <img src="./Images/Rectangle 5.png"></img>
+              <img src="./Images/Rectangle 6.png"></img>
+            
           </div>
         </AccordionDetails>
       </Accordion>
@@ -133,7 +147,7 @@ const Itinerary = () => {
             Note:
 
             </li>
-            <li>// Google maps provide a wrong location to Chopta that is extremely close to Rudraprayag and about 57 km away from Sari. The Chopta mentioned in our itinerary lies on the route to Tungnath.
+            <li>Google maps provide a wrong location to Chopta that is extremely close to Rudraprayag and about 57 km away from Sari. The Chopta mentioned in our itinerary lies on the route to Tungnath.
 
 </li>
             <li>
@@ -151,18 +165,19 @@ const Itinerary = () => {
 
             </li>
             <li>
-            Lunch - roti with vegetable, paratha, dal &amp rice, achar, salad, sweet.
+            Lunch - roti with vegetable, paratha, dal &amp; rice, achar, salad, sweet.
             </li>
             <li>
 
-            Dinner - rice &amp gravy, roti/paratha, achar, salad, sweet.
+            Dinner - rice &amp; gravy, roti/paratha, achar, salad, sweet.
 
             </li>
-            <li>// Snacks - tea/coffee, biscuits, sandwiches.
+            <li> Snacks - tea/coffee, biscuits, sandwiches.
 </li>
           </ul>
         </AccordionDetails>
       </Accordion>
+      </div>
     </div>
   );
 };

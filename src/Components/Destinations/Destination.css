@@ -1,0 +1,44 @@
+/* .one{
+    border-left: 3px solid blue;
+    width: 40.99px;
+    display: inline;
+    margin-right: 16px;
+}
+.two{
+    border-left: 3px solid blue;
+    width: 53px;
+    display: inline;
+    margin-right: 16px;
+}
+.three{
+    border-left: 3px solid blue;
+    width: 59px;
+    display: inline;
+} */
+.destination-heading{
+    padding: 18px;
+}
+.flex-destination span{
+    display: inline-block;
+}
+.destination-heading{
+    display: inline-block;
+}
+.ek{
+      height: 20px;
+      margin-right: 5px;
+      border:2px solid rgba(74, 242, 242, 1);
+}
+.do{
+    height: 25px;
+      margin-right: 5px;
+      border:2px solid rgba(74, 242, 242, 1);
+}
+
+.teen{
+    height: 30px;
+    border:2px solid rgba(74, 242, 242, 1);
+}
+.flex-destination{
+    text-align: center;
+}
