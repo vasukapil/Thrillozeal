@@ -1,0 +1,23 @@
+.nainital_header{
+    display: flex;
+    justify-content: space-between;
+    background: #57BEBE;   
+}
+.FirstHome__input_forheader{
+    display: flex;
+    /* position: absolute; */
+    width: 500px;
+    height: 50px;
+    top: 150px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    align-items: center;
+    padding: 5px;
+}
+.FirstHome__input_forheader>input {
+    width: 175px;
+    height: 45px;
+    border: none;
+    outline: none;
+    margin-left: 17px;
+}
