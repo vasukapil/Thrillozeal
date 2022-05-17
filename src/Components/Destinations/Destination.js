@@ -51,7 +51,8 @@ const Destination = () => {
         <div>
             <p>Rishikesh</p>
             <p>4D/3N</p>
-            <img src="./Images/1.svg"></img><p>4.9/5</p>
+            <img src="./Images/1.svg"></img>
+            <p>4.9/5</p>
             <p>₹ 2,499/-</p>
             <p>₹ 4,999/-</p>
         </div>

@@ -32,14 +32,21 @@
     align-items: center;
     height: 10vh;
 }
-
+.Header__section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .Header__logo {
     display: flex;
     width: 50vw;
     justify-content: center;
     align-items: center;
 }
-
+.Header__logo>img{
+    display: flex;
+    height: fit-content;
+}
 .sections {
     display: flex;
     justify-content: space-around;
