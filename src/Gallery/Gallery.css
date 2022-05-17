@@ -20,21 +20,37 @@
     
 
 }
-.one{
-
+.one-one{
+    
     flex: 1;
 
 }
-.two{
+.two-two{
 
     flex: 1;
 }
-.three{
+.three-three{
 
     flex: 1;
 }
-.four{
+.four-four{
     flex: 1;
+    position: relative;
+
+}
+
+.gallery-open{
+    width: 187px;
+    height: 60px;
+
+background: #57BEBE;
+border-radius: 20px 0px 0px 20px;
+position: absolute;
+top:40px;
+right: 10px;
+text-align: center;
+
+
 
 }
 
@@ -44,6 +60,13 @@ font-family: var(--font-family-montserrat);
 font-size: var(--font-size-l2);
 font-style: normal;
 font-weight: 600;
+}
+
+.cities-1{
+    margin-left: 5px;
+}
+.chamoli{
+    margin-left: 5px;
 }
 
 .chopta{
@@ -58,4 +81,26 @@ min-height: 17px;
 .below-text{
     display: flex;
     padding: 1.5%;
+}
+
+.Gallery-Container img:nth-child(2){
+    display: none;
+}
+
+@media (max-width:600px){
+
+    .Gallery-Container{
+        width: 100vw;
+    }
+
+    .Gallery-Container img:first-child{
+        display: none;
+    }
+
+    .Gallery-Container img:nth-child(2){
+        display: block;
+    }
+    .four-four{
+        display: none;
+    }
 }

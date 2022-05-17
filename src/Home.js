@@ -15,18 +15,17 @@ import Package from "./Components/Trek/Package";
 const Home = () => {
     return (
       <div>
-           <Navbar/>
+           {/* <Navbar/> */}
            <Gallery/>
            <Card/>
            <Fourbutton/>
             
            <Policy/>
-           <Destination/>
-           <Footer/>
+        
+{/*       
            <Magicslider/>
-           <Hero/>
-           <Travel/>
-           
+           <Travel/> */}
+
       
      </div>
     )

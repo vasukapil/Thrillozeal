@@ -31,12 +31,30 @@ const Card = () => {
             </div>
           </div>
           <div className="icons-row">
-            <img src="./Images/Fast Food.png"></img>
-            <img src="./Images/London Cab.png"></img>
-            <img src="./Images/Hotel Door.png"></img>
-            <img src="./Images/3D Glasses.png"></img>
-            <img src="./Images/Fire.png"></img>
-            <img src="./Images/Kayaking.png"></img>
+              <div className="target-wrap">
+              <img src="./Images/Fast Food.png"></img>
+              </div>
+              <div className="target-wrap">
+              <img src="./Images/London Cab.png"></img>
+              </div>
+              <div className="target-wrap">
+              <img src="./Images/Hotel Door.png"></img>
+              </div>
+              <div className="target-wrap">
+              <img src="./Images/3D Glasses.png"></img>
+              </div>
+              <div className="target-wrap">
+              <img src="./Images/Fire.png"></img>
+              </div>
+              <div className="target-wrap">
+              <img src="./Images/Kayaking.png"></img>
+              </div>
+            
+            
+            
+            
+            
+            
           </div>
         </div>
 

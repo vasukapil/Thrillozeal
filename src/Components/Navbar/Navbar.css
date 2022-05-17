@@ -29,3 +29,15 @@
 .Nav-items li{
     list-style: none;
 }
+
+@media (max-width:600px){
+
+    .Third ul li{
+        display: none;
+    }
+    .Third ul li:last-child{
+        display: block;
+    }
+   
+
+}

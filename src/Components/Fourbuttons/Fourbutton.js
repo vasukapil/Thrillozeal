@@ -9,6 +9,7 @@ import Package from '../Trek/Package';
 const Fourbutton = () => {
     const [active,setActive]=useState("first");
   return (
+    <div className="section-control">
       <div className="full">
     <div className="button-container">
         <a className="a1" onClick={()=>setActive("first")}>Highlights</a>
@@ -41,6 +42,7 @@ const Fourbutton = () => {
    <input type="submit" name="submit" value="Send"></input>
     </div>
 
+    </div>
     </div>
   )
 }

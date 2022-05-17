@@ -173,3 +173,99 @@ color: #FFFFFF !important;
     margin-top: 3.625rem;
 
 }
+
+@media (max-width:600px){
+    .Card-Container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .chopta-tungnath-chandrashilla-trek{
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+
+color: #57BEBE;
+text-align: left;
+margin-left: 10px;
+    }
+    .icons-row{
+        display: flex;
+       justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        padding: 1rem;
+
+        flex-wrap: wrap;
+    }
+    .icons-row img{
+        margin-right: 60px;
+    }
+    .target-wrap{
+
+        width: 33%;
+
+    }
+    .second-flex{
+        display: none;
+    }
+    .based{
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+
+color: #57BEBE;
+    }
+    .rating{
+        width: 54px;
+height: 37px;
+
+background: #57BEBE;
+border-radius: 20px;
+    }
+    .stars{
+        width: 98.18px;
+height: 23.33px;
+    }
+    .clock-text{
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #909090;
+
+    }
+    .chamoli-uk{
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        
+        color: #909090;
+
+    }
+    .rating p{
+        width: 33.55px;
+height: 20px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+
+color: #FFFFFF;
+
+opacity: 0.5;
+    }
+    
+}
