@@ -14,11 +14,11 @@ const Destination = () => {
       
       </div>
     <div className="slider-splide">
-        <Splide options={ { rewind: true,perPage:4 } } aria-label="React Splide Example">
+        <Splide options={ { rewind: true,perPage:4} } aria-label="React Splide Example">
       <SplideSlide>
         <img src="./Images/a.png" alt="Image 1"/>
-        <div>
-            <p>Auli - Chopta</p>
+        <div className="one1">
+            <p className="head">Auli - Chopta</p>
             <p>4D/3N</p>
             <img src="./Images/1.svg"></img><p>4.9/5</p>
             <p>₹ 4,499/- </p>
@@ -27,8 +27,8 @@ const Destination = () => {
       </SplideSlide>
       <SplideSlide>
         <img src="./Images/b.png" alt="Image 2"/>
-        <div>
-            <p>Auli</p>
+        <div className="one1">
+            <p className="head">Auli</p>
             <p>3D/2N</p>
             <img src="./Images/1.svg"></img><p>4.9/5</p>
             <p>₹ 3,999/-  </p>
@@ -38,8 +38,49 @@ const Destination = () => {
 
       <SplideSlide>
         <img src="./Images/c.png" alt="Image 2"/>
-        <div>
-            <p>Chopta </p>
+        <div className="one1">
+            <p className="head">Chopta </p>
+            <p>3D/2N</p>
+            <img src="./Images/1.svg"></img><p>4.9/5</p>
+            <p>₹ 3,999/-  </p>
+            <p>₹ 6,999/-  </p>
+        </div>
+      </SplideSlide>
+      <SplideSlide>
+        <img src="./Images/d.png" alt="Image 2"/>
+        <div className="one1">
+            <p className="head">Rishikesh</p>
+            <p>4D/3N</p>
+            <img src="./Images/1.svg"></img><p>4.9/5</p>
+            <p>₹ 2,499/-</p>
+            <p>₹ 4,999/-</p>
+        </div>
+      </SplideSlide>
+      <SplideSlide>
+        <img src="./Images/a.png" alt="Image 1"/>
+        <div className="one1">
+            <p className="head">Auli - Chopta</p>
+            <p>4D/3N</p>
+            <img src="./Images/1.svg"></img><p>4.9/5</p>
+            <p>₹ 4,499/- </p>
+            <p>₹ 7,499/- </p>
+        </div>
+      </SplideSlide>
+      <SplideSlide>
+        <img src="./Images/b.png" alt="Image 2"/>
+        <div className="one1">
+            <p className="head">Auli</p>
+            <p>3D/2N</p>
+            <img src="./Images/1.svg"></img><p>4.9/5</p>
+            <p>₹ 3,999/-  </p>
+            <p>₹ 6,999/-  </p>
+        </div>
+      </SplideSlide>
+
+      <SplideSlide>
+        <img src="./Images/c.png" alt="Image 2"/>
+        <div className="one1">
+            <p className="head">Chopta </p>
             <p>3D/2N</p>
             <img src="./Images/1.svg"></img><p>4.9/5</p>
             <p>₹ 3,999/-  </p>
@@ -49,7 +90,7 @@ const Destination = () => {
       <SplideSlide>
         <img src="./Images/d.png" alt="Image 2"/>
         <div>
-            <p>Rishikesh</p>
+            <p className="head">Rishikesh</p>
             <p>4D/3N</p>
             <img src="./Images/1.svg"></img>
             <p>4.9/5</p>
@@ -61,6 +102,8 @@ const Destination = () => {
     </div>
     </>
   );
+
+  
    
   
 }

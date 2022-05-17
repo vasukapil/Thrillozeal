@@ -4,6 +4,7 @@ import { Trek } from '../Trek/Trek';
 import Itinerary from '../Trek/Itinerary'
 import './Fourbutton.css'
 import Review from '../Review';
+import Package from '../Trek/Package';
 
 const Fourbutton = () => {
     const [active,setActive]=useState("first");
@@ -21,11 +22,22 @@ const Fourbutton = () => {
         {active==="first" && <Trek/>}
         {active==="second" && <Itinerary/>}
         {active==="third" && <FAQ/>}
-        {active==="fourth" && <Trek/>}
+        {active==="fourth" && <Package/>}
         {active==="fifth" && <a href=""></a>}
         
         
         
+    </div>
+
+    <div className="form-container">
+      <h1>Customize your package</h1>
+      <p>We will help you in creating your personal package. 
+       Fill this form and we will connect with you soon!</p>
+   <input type="text" name="input" placeholder="Full Name*"></input>
+   <input type="number" name="mobile" placeholder="Mobile Number*"></input>
+   <input type="email" name="input" placeholder="Email Id*"></input>
+   <input type="text" name="input" placeholder="Trip date- dd/mm/yyyy"></input>
+   <input type="number" name="input" placeholder="Number of People*"></input>
     </div>
 
     </div>
