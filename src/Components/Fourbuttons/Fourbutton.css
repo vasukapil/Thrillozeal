@@ -32,7 +32,9 @@ padding: 8px;
 
 }
 
-
+.full{
+    position: relative;
+}
 
 .card-full{
     height: auto;
@@ -46,5 +48,58 @@ border: 1px solid #909090;
 box-sizing: border-box;
 border-radius: 10px;
 padding: 20px;
+
+}
+.form-container{
+    width: 357px;
+height: 664px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.55);
+position: absolute;
+right: 30px;
+top:0;
+}
+.form-container h1{
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+height: 29px;
+border-bottom: 1px solid black;
+padding: 20px;
+background-color: rgba(87, 190, 190, 1);
+color: #ffffff;
+
+}
+.form-container p{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-container input[type]:not([type="submit"]){
+    display: block;
+  margin:auto;
+
+background: #FFFFFF;
+border: 1px solid #909090;
+border-radius: 20px;
+width: 289px;
+height: 63px;
+margin-bottom: 25px;
+text-align: center;
+}
+.form-container input[type="submit"]{
+    display: block;
+background: #57BEBE;
+border-radius: 20px;
+color: white;
+width: 121px;
+height: 47px;
+text-align: center;
+
 
 }
