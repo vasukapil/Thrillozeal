@@ -14,7 +14,9 @@ const Footer = () => {
             without being there.
           </p>
         </div>
-        <div className="Links-div">
+      
+      <div className="combo__link_contact">
+      <div className="Links-div">
           <h1>USEFUL LINKS</h1>
           <ul>
             <li>Home</li>
@@ -32,7 +34,7 @@ const Footer = () => {
           </span>
           <span>
             <img></img>
-            <p>B 36, Nehru Colony, Dehrdun
+            <p >B 36, Nehru Colony, Dehrdun
               Uttarakhand, India 248001</p>
           </span>
           <span>
@@ -40,6 +42,7 @@ const Footer = () => {
             <p>info@thrillozeal.com</p>
           </span>
         </div>
+      </div>
         <div className="Legal">
           <h1>LEGAL</h1>
           <ul>
@@ -52,9 +55,9 @@ const Footer = () => {
         <div className="Newsletter">
           <h1>NEWSLETTER</h1>
           <ul>
-            <li>Sign up for our mailing
+            <li className="newsletter_li">Sign up for our mailing
               list</li>
-            <li>We respect your
+            <li className="newsletter_li">We respect your
               privacy</li>
             <form>
               <input></input>

@@ -3,7 +3,6 @@ import './Gallery.css'
 const Gallery = () => {
   return (
     <div>
-        
         <div className="Gallery-Container">
             <div className="one">
                 <img src="./Images/Rectangle 56.png"></img>

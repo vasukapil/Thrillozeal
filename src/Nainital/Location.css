@@ -55,6 +55,7 @@
     line-height: 29px;
     color: #57BEBE;
     padding: 12px 0;
+    text-transform: uppercase;
 }
 
 .smallContent__body {
@@ -118,13 +119,37 @@
     display: flex;
     flex-direction: column;
 }
-@media(max-width:768px) {
+
+@media(max-width:900px) {
     .header_name {
-        padding: 6px 14px;
+        padding: 6px 8px;
+    }
+    .nainital__body_first {
+        padding: 11px;
     }
     .nainital__body_secondIn{
         display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
-        width: 95vh;
+        width: 100vh;
+    }
+    .nainital__filter{
+        display: flex;
+        width: 90vw !important;
+    }
+    .nainital__card_out{
+        width: 95vw !important;
+    }
+    .nainitalBody__input{
+        height: 25px;
+        /* padding: 12px 0; */
+        margin: 12px 4px;
+    }
+    .nainitalBody__input>input{
+        width: 70%;
+    }
+    .nainitalBody__input>div{
+        font-size: 12px;
     }
 }

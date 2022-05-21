@@ -1,3 +1,26 @@
+// {<div className="two_checkbox">
+// <h6>Destinations</h6>
+// {filterArrayloc.length > 0 &&
+//     <div className="show_filterArray">
+//         {filterArrayloc.map(arr => (
+//             <h5>
+//                 {arr}
+//                 {/* <img className='filter_Cross' src={cross} alt="" onClick={()=>remove_from_array(arr)}/> */}
+//             </h5>
+//         ))}
+//     </div>
+// }
+// {text.map((dest) => (
+//     <div className='checkbox'>
+//         <input type="checkbox" onClick={(e) => { check__checkBoxLoc(e, dest) }} />
+//         <p>{dest}</p>
+//     </div>
+// ))}
+
+// <div className="loadMore">
+//     Load More..
+// </div>
+// </div>}
 import React, { useState, useEffect } from 'react';
 import './Filter.css';
 import star from './img/Vector.png'
@@ -11,17 +34,17 @@ import { useStateValue } from '../../StateProvider';
 import { actionTypes } from '../../reducer';
 
 function Filter() {
-
-
-    const [{ locations, activities, Travel_Style, filter_prices,useFilter_price }, dispatch] = useStateValue();
-
+    
+  
+    const [{ locations,activities,filter_prices}, dispatch] = useStateValue();
+    
     const [showslider, setShowslider] = useState(false);
     const [showfilter, setShowfilter] = useState(false);
     const [width, setWidth] = useState(window.screen.width);
     // const [filterArrayloc, setFilterArrayloc] = useState([]);
     const [filterArrayact, setFilterArrayact] = useState([]);
     const [filterArraysty, setFilterArraysty] = useState([]);
-    // const [filterArraypri, setFilterArraypri] = useState('All price range');
+    const [filterArraypri, setFilterArraypri] = useState('All price range');
 
     // dispatch({
     //     type: actionTypes.SET_USER,
@@ -46,7 +69,7 @@ function Filter() {
             dispatch({
                 type: actionTypes.SET_USE_FILTER_ACT,
                 useFilter_act: filterArrayact,
-            });
+              });
         } else {
             const index = filterArrayact.findIndex(checkAge);
 
@@ -61,57 +84,13 @@ function Filter() {
                 dispatch({
                     type: actionTypes.SET_USE_FILTER_ACT,
                     useFilter_act: filterArrayact,
-                });
+                  });
             } else {
                 console.warn(
                     `Cant remove product (id: ) as its not in basket!`
                 )
             }
         }
-    }
-
-    const check__checkBoxSty = (e, sty) => {
-        console.log("sssssssss");
-        const checked = e.target.checked;
-
-        if (checked) {
-            filterArraysty.push(sty);
-            const na = [...filterArraysty]
-            setFilterArraysty(na);
-            dispatch({
-                type: actionTypes.SET_USE_FILTER_STY,
-                useFilter_style: filterArraysty,
-            });
-        } else {
-            const index = filterArraysty.findIndex(checkAge);
-
-            function checkAge(age) {
-                console.log(age)
-                return age == sty;
-            }
-            if (index >= 0) {
-                filterArraysty.splice(index, 1);
-                const na = [...filterArraysty]
-                setFilterArraysty(na)
-                dispatch({
-                    type: actionTypes.SET_USE_FILTER_STY,
-                    useFilter_style: filterArraysty,
-                });
-            } else {
-                console.warn(
-                    `Cant remove product (id: ) as its not in basket!`
-                )
-            }
-        }
-
-    }
-
-    // setting price range by user
-    const price_range=(arr)=>{
-        dispatch({
-            type: actionTypes.SET_USE_FILTER_PRICES,
-            useFilter_price: arr,
-        });
     }
 
     return (
@@ -152,9 +131,9 @@ function Filter() {
                     </div>
                 </div>
             </>}
-            {<>
+            {(showfilter || width > 900) && <>
 
-                <div className={(showfilter || width > 900) ? "filter_top2" : ' filter_top2 filter_top2_left'}>
+                <div className="filter_top2">
 
                     <div className="filter__two1">
                         Reset Filter
@@ -174,7 +153,7 @@ function Filter() {
                         </div>
                     </div>
                     {/* Destinations */}
-
+                   
                     {/* Categories */}
                     <div className="two_checkbox">
                         <h6>Categories</h6>
@@ -202,13 +181,7 @@ function Filter() {
                     {/* Categories */}
                     <div className="two_checkbox">
                         <h6>Travel Style</h6>
-                        {Travel_Style.map((sty) => (
-                            <div className='checkbox'>
-                                <input type="checkbox"  onClick={(e)=>check__checkBoxSty(e,sty)} />
-                                <p>{sty}</p>
-                            </div>
-                        ))}
-                        {/* <div className='checkbox'>
+                        <div className='checkbox'>
                             <input type="checkbox" />
                             <p>Friends</p>
                         </div>
@@ -219,7 +192,7 @@ function Filter() {
                         <div className='checkbox'>
                             <input type="checkbox" />
                             <p>Couple</p>
-                        </div> */}
+                        </div>
 
                         <div className="loadMore">
                             Load More..
@@ -233,9 +206,9 @@ function Filter() {
                             {filter_prices.length > 0 &&
                                 <div className="show_filterArray">
                                     {filter_prices.map(arr => (
-                                        <h5 className={useFilter_price === arr && 'dark_box'} onClick={() =>  price_range(arr)}>
-                                            {arr}
-                                        </h5>
+                                            <h5 className={filterArraypri === arr &&'dark_box'} onClick={() => { setFilterArraypri(arr) }}>
+                                                {arr}
+                                            </h5>
                                     ))}
                                 </div>
                             }

@@ -4,9 +4,11 @@ import Home from './Home';
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, useHistory } from "react-router-dom";
 import FirstHome from './home/FirstHome';
-import Nainital from './Nainital/Nainital';
+import Location from './Nainital/Location';
 import Destination from './Components/Destinations/Destination';
 import Magicslider from './Main/Magicslider';
+import { useParams } from 'react-router-dom';
+import SubLocation from './SubLocation/SubLocation';
 
 function App() {
   return (
@@ -15,14 +17,11 @@ function App() {
         <Route path="/home">
           <Home />
         </Route>
-        <Route path="/destination">
-          <Destination />
+        <Route path="/:location/:name/:price">
+          <SubLocation/>
         </Route>
-        <Route path="/magic">
-          <Magicslider />
-        </Route>
-        <Route path="/nainital">
-          <Nainital/>
+        <Route path="/:location">
+          <Location/>
         </Route>
         <Route path="/">
           <FirstHome/>

@@ -9,10 +9,15 @@ import img1 from '../img/img1.jpg';
 import img2 from '../img/img2.jpg';
 import img3 from '../img/img3.jpg';
 import imgmore from '../img/img_more.png';
+import { useHistory } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
-function Card() {
+function Card({data}) {
+    const {location}=useParams()
+    const history=useHistory();
+    console.log("data",data?.data)
     return (
-        <div className="nainital__card">
+        <div className="nainital__card" onClick={()=>history.push(`/${location}/${data?.data?.Name}/${data?.data?.price}`)}>
             <div className="card__c1">
                 <div className="top__img_c1">
                     <img src={img1} alt="" />
@@ -25,7 +30,7 @@ function Card() {
             </div>
             <div className="card__c2">
                 <div class="card__c2_head">
-                Nainital- Kasauni- Ranikhet
+                {data?.data?.Name}
                 </div>
                 <div className="card__c2_body">
                     <div className="card__c2_innner">
@@ -36,7 +41,8 @@ function Card() {
                         <img src="./Images/map-pin.png"></img>
                         <div className="c2__text">Chamoli,UK</div>
                     </div>
-                    <div className="card__c2_innner">
+                    <br/>
+                    <div className="card__c2_innner card__c2_innner2">
                         <div className="naini__stars">
                             <img src="./Images/Group 4.png"></img>
                             <p>based on 78 reviews</p>
