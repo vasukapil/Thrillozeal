@@ -132,7 +132,7 @@ const Itinerary = () => {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion>
+      <Accordion className="not-mobile">
         <AccordionSummary
         
           aria-controls="panel3a-content"
@@ -167,7 +167,7 @@ const Itinerary = () => {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion>
+      <Accordion className="not-mobile">
         <AccordionSummary
         
           aria-controls="panel3a-content"
@@ -200,7 +200,7 @@ const Itinerary = () => {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion>
+      <Accordion className="not-mobile">
         <AccordionSummary
         
           aria-controls="panel3a-content"

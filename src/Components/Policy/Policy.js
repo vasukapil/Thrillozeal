@@ -6,7 +6,7 @@ const Policy = () => {
 
 
         <div className="policy-container">
-            <div>
+            <div className="confirm">
             <p>Confirmation Policy</p>
             <p>As soon as the payment is made, a confirmation email would be sent to your provided email id. The payment receipt will be attached with the mail.</p></div>
 
@@ -31,7 +31,7 @@ const Policy = () => {
                 </ul>
             </div>
 
-            <div>
+            <div className="refund">
                 <p>Refund Policy</p>
                 <p>The refund would be processed within 10 business days.</p>
             </div>

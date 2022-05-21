@@ -59,9 +59,9 @@ const Footer = () => {
               list</li>
             <li className="newsletter_li">We respect your
               privacy</li>
-            <form>
-              <input></input>
-              <input></input>
+            <form className="footer-form">
+              <input type="text" placeholder="you@awesome.com"></input>
+              <input type="submit" value="Submit"></input>
             </form>
           </ul>
         </div>

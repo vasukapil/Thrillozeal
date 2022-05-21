@@ -20,7 +20,7 @@ const Navbar = () => {
                     <li>About Us</li>
                     <li>Cities</li>
                     <li>Contact</li>
-                    <li><img src="./Images/phone-call.png"></img></li>
+                    <li><img className="show" src="./Images/phone-call.png"></img></li>
 
                 </ul>
             </div>

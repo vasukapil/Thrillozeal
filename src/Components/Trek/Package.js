@@ -24,6 +24,26 @@ const Package = () => {
               <img src="./Images/Fire.png"></img>
               <img src="./Images/Kayaking.png"></img>
               </div>
+              <div className="icons-row">
+              <div className="target-wrap">
+              <img src="./Images/Fast Food.png"></img>
+              </div>
+              <div className="target-wrap">
+              <img src="./Images/London Cab.png"></img>
+              </div>
+              <div className="target-wrap">
+              <img src="./Images/Hotel Door.png"></img>
+              </div>
+              <div className="target-wrap">
+              <img src="./Images/3D Glasses.png"></img>
+              </div>
+              <div className="target-wrap">
+              <img src="./Images/Fire.png"></img>
+              </div>
+              <div className="target-wrap">
+              <img src="./Images/Kayaking.png"></img>
+              </div>
+              </div>
             </PackageInc>
            
             <Position>
@@ -50,6 +70,26 @@ const Package = () => {
               <img src="./Images/3D Glasses.png"></img>
               <img src="./Images/Fire.png"></img>
               <img src="./Images/Kayaking.png"></img>
+              </div>
+              <div className="icons-row">
+              <div className="target-wrap">
+              <img src="./Images/Fast Food.png"></img>
+              </div>
+              <div className="target-wrap">
+              <img src="./Images/London Cab.png"></img>
+              </div>
+              <div className="target-wrap">
+              <img src="./Images/Hotel Door.png"></img>
+              </div>
+              <div className="target-wrap">
+              <img src="./Images/3D Glasses.png"></img>
+              </div>
+              <div className="target-wrap">
+              <img src="./Images/Fire.png"></img>
+              </div>
+              <div className="target-wrap">
+              <img src="./Images/Kayaking.png"></img>
+              </div>
               </div>
             </PackageInc>
            
@@ -78,6 +118,8 @@ line-height: 34px;
 color: #57BEBE;
 padding-left:15px;
 padding-bottom:15px;
+
+
 `
 
 const CardContain=styled.div`
@@ -94,6 +136,16 @@ padding:20px;
 background: rgba(255, 252, 228, 0.3);
 border: 2px solid #57BEBE;
 border-radius: 30px;
+
+@media (max-width:600px){
+  width: 283px;
+height: 368px;
+
+background: rgba(255, 252, 228, 0.3);
+border: 2px solid #57BEBE;
+border-radius: 30px;
+margin-left:0;
+}
 `
 
 const Heading=styled.h1`
@@ -104,6 +156,17 @@ font-size: 22px;
 line-height: 27px;
 /* identical to box height */
 color: #57BEBE;
+@media (max-width:600px)
+{
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+
+color: #57BEBE;
+}
 `
 const Description=styled.p`
 font-family: 'Montserrat';
@@ -126,6 +189,19 @@ font-size: 12px;
 line-height: 15px;
 
 color: #57BEBE;
+
+@media (max-width:600px){
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+margin-top:120px;
+color: #57BEBE;
+
+}
+
+
 }
 .img_logo{
   display:flex;
@@ -135,12 +211,27 @@ color: #57BEBE;
 .img_logo img{
   padding:8px;
 }
+@media (max-width:600px){
+
+
+.img_logo{
+  display:none;
+}
 `
 const Position=styled.div`
 position:absolute;
 right: 0px;
     top: 126px;
 width:30%;
+
+@media (max-width:600px)
+{
+  left:25px;
+  width:80%;
+
+  
+
+}
 
 span{
   font-family: 'Montserrat';

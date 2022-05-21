@@ -25,3 +25,9 @@ padding: 20px;
 
 color: #57BEBE;
 }
+
+@media (max-width:600px){
+    .Accordian-Wrapper .not-mobile{
+        display: none;
+    }
+}

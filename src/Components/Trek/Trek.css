@@ -18,3 +18,24 @@ padding: 25px;
 
 color: #57BEBE;
 }
+
+@media (max-width:600px){
+
+    .bullet-points li{
+        display: inline;
+    }
+    .bullet-points ul{
+        width: 100%;
+    }
+    .bullet-points ul div{
+        width: 100%;
+    }
+    .Trek h1{
+        text-align: left;
+        padding-left: 0;
+    }
+    .bullet-points ul div img{
+        margin-right: 5px;
+    }
+
+}

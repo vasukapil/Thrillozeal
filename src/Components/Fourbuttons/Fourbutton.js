@@ -9,6 +9,7 @@ import Package from '../Trek/Package';
 const Fourbutton = () => {
     const [active,setActive]=useState("first");
   return (
+    <div className="section-control">
       <div className="full">
     <div className="button-container">
         <a className="a1" onClick={()=>setActive("first")}>Highlights</a>
@@ -34,12 +35,14 @@ const Fourbutton = () => {
       <p>We will help you in creating your personal package. 
        Fill this form and we will connect with you soon!</p>
    <input type="text" name="input" placeholder="Full Name*"></input>
-   <input type="number" name="mobile" placeholder="Mobile Number*"></input>
+   <input type="text" name="mobile" placeholder="Mobile Number*"></input>
    <input type="email" name="input" placeholder="Email Id*"></input>
    <input type="text" name="input" placeholder="Trip date- dd/mm/yyyy"></input>
    <input type="number" name="input" placeholder="Number of People*"></input>
+   <input type="submit" name="submit" value="Send"></input>
     </div>
 
+    </div>
     </div>
   )
 }
