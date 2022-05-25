@@ -2,12 +2,9 @@
 import './App.css';
 import Home from './Home';
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, useHistory } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import FirstHome from './home/FirstHome';
 import Location from './Nainital/Location';
-import Destination from './Components/Destinations/Destination';
-import Magicslider from './Main/Magicslider';
-import { useParams } from 'react-router-dom';
 import SubLocation from './SubLocation/SubLocation';
 
 function App() {

@@ -5,42 +5,46 @@ const Travel = () => {
   return (
     <div className="Travel-Container">
           <div className="flex-destination">
-        <span className="ek"></span>
-        <span className="do"></span>
-        <span className="teen"></span>
-        <h1 style={{ textAlign: "center" }} className="destination-heading">
-          Travel Style
-        </h1>
+          <div className="second_header">
+                <img src='/Images/progess.png' alt="" />
+                Travel Style
+            </div>
       </div>
 
       <div className="travel-img-container">
           <div className="column">
-          <img style={{width:'170px',height:'170px'}} src="./Images/couples.png"></img>
+          <img  src="./Images/couples.png"></img>
+          <p>Couples</p>
           </div>
           <div className="column">
-          <img style={{width:'170px',height:'170px'}}src="./Images/friends.png"></img>
+          <img src="./Images/friends.png"></img>
+          <p>Friends</p>
           </div>
           <div className="column">
-          <img style={{width:'170px',height:'170px'}}src="./Images/family.png"></img>
+          <img src="./Images/family.png"></img>
+          <p>Family</p>
           </div>
           <div className="column">
-          <img style={{width:'170px',height:'170px'}}src="./Images/solo.png"></img>
+          <img src="./Images/solo.png"></img>
+          <p>Solo</p>
           </div>
           <div className="column">
-              
-         
-          <img style={{width:'170px',height:'170px'}}src="./Images/coorporate.png"></img>
+          <img src="./Images/coorporate.png"></img>
+          <p>Corporate</p>
           </div>
           <div className="column">
-          <img style={{width:'170px',height:'170px'}}src="./Images/school.png"></img>
+          <img src="./Images/school.png"></img>
+          <p>School Trips</p>
           </div>
          
             <div className="column">
-            <img style={{width:'170px',height:'170px'}}src="./Images/work.png"></img>
+            <img src="./Images/work.png"></img>
+            <p>Workation</p>
             </div>
             <div className="column">
 
-          <img style={{width:'170px',height:'170px'}}src="./Images/bike.png"></img>
+          <img src="./Images/bike.png"></img>
+          <p>Bike Trips</p>
             </div>
       </div>
     </div>

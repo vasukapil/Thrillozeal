@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     width: 100vw !important;
-    height: 100vh !important;
+    height: 100vh ;
     overflow: hidden;
 }
 
@@ -40,8 +40,8 @@
 }
 .Header__logo {
     display: flex;
-    width: 50vw;
-    justify-content: center;
+    width: 40vw; 
+    /* padding-left: 21px; */
     align-items: center;
 }
 .Header__logo>img{
@@ -57,8 +57,11 @@
     font-size: 20px;
 }
 
-.call {
-    padding: 0 20px 0 40px;
+.call >img{
+    /* padding: 0 20px 0 40px; */
+    padding-top: 4px;
+    height: 27px;
+    /* width: 12px; */
 }
 
 .firstBox {
@@ -159,10 +162,9 @@
 .one {
     position: absolute;
     bottom: 2vh;
-    right: 33vw;
+    right: 32.3vw;
     width: 150px;
     height: 150px;
-
 }
 
 .two {
@@ -210,9 +212,12 @@
 }
 
 @media (max-width:768px) {
+    .Header__logo {
+        padding-left: 21px;
+    }
     .FirstHome {
         width: 100vw;
-        height: 50vh;
+        height: 45vh;
     }
 
     .theme {

@@ -11,7 +11,6 @@ const Itinerary = () => {
     <div className="Accordian-Wrapper">
       <Accordion>
         <AccordionSummary
-     
           aria-controls="panel1a-content"
           id="panel1a-header"
         >

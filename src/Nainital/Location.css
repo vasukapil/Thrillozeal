@@ -89,32 +89,38 @@
     border-radius: 20px;
     align-items: center;
 }
-.nainitalBody__input>img{
+
+.nainitalBody__input>img {
     display: flex;
     /* height: 12px; */
     width: 30px;
 }
-.nainitalBody__input>input{
+
+.nainitalBody__input>input {
     height: 35px;
     border: none;
     outline: none;
     margin-left: 12px;
     width: 80%;
 }
-.nainital__body_second{
+
+.nainital__body_second {
     display: flex;
     justify-content: center;
 }
-.nainital__body_secondIn{
+
+.nainital__body_secondIn {
     display: flex;
     width: 90vw;
     justify-content: space-around;
 }
-.nainital__filter{
+
+.nainital__filter {
     display: flex;
     width: 30vw;
 }
-.nainital__card_out{
+
+.nainital__card_out {
     width: 54vw !important;
     display: flex;
     flex-direction: column;
@@ -122,34 +128,43 @@
 
 @media(max-width:900px) {
     .header_name {
-        padding: 6px 8px;
+        padding: 6px 6px;
+        font-weight: 500;
+        font-size: 15px;
     }
+
     .nainital__body_first {
         padding: 11px;
     }
-    .nainital__body_secondIn{
+
+    .nainital__body_secondIn {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         width: 100vh;
     }
-    .nainital__filter{
+
+    .nainital__filter {
         display: flex;
         width: 90vw !important;
     }
-    .nainital__card_out{
+
+    .nainital__card_out {
         width: 95vw !important;
     }
-    .nainitalBody__input{
+
+    .nainitalBody__input {
         height: 25px;
         /* padding: 12px 0; */
         margin: 12px 4px;
     }
-    .nainitalBody__input>input{
+
+    .nainitalBody__input>input {
         width: 70%;
     }
-    .nainitalBody__input>div{
+
+    .nainitalBody__input>div {
         font-size: 12px;
     }
 }

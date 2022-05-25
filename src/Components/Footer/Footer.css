@@ -76,6 +76,27 @@
     display: flex;
     font-size: 16px !important;
 }
+.footer-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.footer-form>input{
+    display: flex;
+    border: 1px solid lightgray;
+    padding: 12px;
+    margin: 6px 0;
+}
+.footer-form>button{
+    display: flex;
+    border: 1px solid lightgray;
+    padding: 12px;
+    margin: 6px 0;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500!important;
+}
 @media(max-width:900px) {
     .combo__link_contact{
         display: flex;

@@ -61,7 +61,7 @@ const Footer = () => {
               privacy</li>
             <form className="footer-form">
               <input type="text" placeholder="you@awesome.com"></input>
-              <input type="submit" value="Submit"></input>
+              <button type="submit">Submit</button>
             </form>
           </ul>
         </div>

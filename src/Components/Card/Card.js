@@ -3,7 +3,7 @@ import "./Card.css";
 
 const Card = () => {
   return (
-    <div>
+    <>
       <div className="Card-Container">
         <div className="first-flex">
           <div class="chopta-tungnath-chandrashilla-trek">
@@ -31,30 +31,24 @@ const Card = () => {
             </div>
           </div>
           <div className="icons-row">
-              <div className="target-wrap">
+            <div className="target-wrap">
               <img src="./Images/Fast Food.png"></img>
-              </div>
-              <div className="target-wrap">
+            </div>
+            <div className="target-wrap">
               <img src="./Images/London Cab.png"></img>
-              </div>
-              <div className="target-wrap">
+            </div>
+            <div className="target-wrap">
               <img src="./Images/Hotel Door.png"></img>
-              </div>
-              <div className="target-wrap">
+            </div>
+            <div className="target-wrap">
               <img src="./Images/3D Glasses.png"></img>
-              </div>
-              <div className="target-wrap">
+            </div>
+            <div className="target-wrap">
               <img src="./Images/Fire.png"></img>
-              </div>
-              <div className="target-wrap">
+            </div>
+            <div className="target-wrap">
               <img src="./Images/Kayaking.png"></img>
-              </div>
-            
-            
-            
-            
-            
-            
+            </div>
           </div>
         </div>
 
@@ -69,7 +63,7 @@ const Card = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

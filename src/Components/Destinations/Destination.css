@@ -77,11 +77,21 @@
     width: 22% !important;
     margin: 12px 1.5%;
 }
-
-.one1 img {
-    margin-right: 6px;
+.one1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10%;
 }
+.one1> img {
+    margin-right: 6px;
+    /* width: 12px;
+    height: 12px; */
+}
+.star_text{
+    display: flex;
 
+}
 .head {
     font-family: 'Montserrat';
     font-style: normal;
@@ -92,54 +102,45 @@
 
 }
 
-.one1 p:nth-child(2){
-    margin-top: 10px;
-}
-.head{
+.head {
     margin-top: 10px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    
+    font-size: 20px;
     color: #000000;
-
+    /* padding-top: 6px; */
 }
 
 .one1 p:nth-child(2) {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 26px;
-    line-height: 32px;
+    font-size: 14px;
     color: #000000;
-    padding: 6px 0;
+    /* padding: 6px 0; */
 
 }
+
 .one1 img:nth-child(3) {
     padding: 6px 0;
-
 }
 
 .one1 p:nth-child(4) {
-    display: inline-block;
+    display: block !important;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 27px;
+    font-size: 20px;
     color: #000000;
     padding: 6px 0;
 }
 
 .one1 p:nth-child(5) {
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 28px;
-    line-height: 34px;
+    font-size: 23px;
     color: #000000;
     padding: 6px 0 3px 0;
 }
@@ -149,7 +150,6 @@
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
     text-decoration-line: line-through;
     color: rgba(0, 0, 0, 0.55);
 }
@@ -186,15 +186,51 @@
     .slider_splide_react_img {
         width: 30vw;
     }
+
     .second_header {
         font-weight: 700;
         font-size: 20px;
         line-height: 44px;
     }
+
     .second_header>img {
         display: flex;
         height: 30px;
         padding-right: 8px;
         padding-top: 8px;
     }
+
+    .head {
+        margin-top: 10px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+        /* padding-top: 6px; */
+    }
+
+    .one1 p:nth-child(1) {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .one1 p:nth-child(2) {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .one1 p:nth-child(4) {
+        font-size: 17px;
+    }
+
+    .one1 p:nth-child(5) {
+        font-size: 20px;
+    }
+
+    .one1 p:nth-child(6) {
+        font-size: 16px;
+    }
+
 }

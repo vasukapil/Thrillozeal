@@ -18,83 +18,83 @@ const Destination = () => {
         <Splide className='slider_splide_react' options={ { rewind: true,perPage:4} } aria-label="React Splide Example">
         {/* <Splide options={ { rewind: true,perPage:4} } aria-label="React Splide Example"> */}
       <SplideSlide className='slider_splide_react1'>
-        <img className='slider_splide_react_img' src="./Images/a.png" alt="Image 1"/>
+        <img className='slider_splide_react_img' src="/Images/a.png" alt="Image 1"/>
         <div className="one1">
             <p className="head">Auli - Chopta</p>
             <p>4D/3N</p>
-            <img src="./Images/1.svg"></img><p>4.9/5</p>
+            <div className='star_text'><img src="/Images/1.svg"></img><p>4.9/5</p></div>
             <p>₹ 4,499/- </p>
             <p>₹ 7,499/- </p>
         </div>
       </SplideSlide>
       <SplideSlide className='slider_splide_react1'>
-        <img className='slider_splide_react_img' src="./Images/b.png" alt="Image 2"/>
+        <img className='slider_splide_react_img' src="/Images/b.png" alt="Image 2"/>
         <div className="one1">
             <p className="head">Auli</p>
             <p>3D/2N</p>
-            <img src="./Images/1.svg"></img><p>4.9/5</p>
+            <div className='star_text'><img src="/Images/1.svg"></img><p>4.9/5</p></div>
             <p>₹ 3,999/-  </p>
             <p>₹ 6,999/-  </p>
         </div>
       </SplideSlide>
 
       <SplideSlide className='slider_splide_react1'>
-        <img className='slider_splide_react_img' src="./Images/c.png" alt="Image 2"/>
+        <img className='slider_splide_react_img' src="/Images/c.png" alt="Image 2"/>
         <div className="one1">
             <p className="head">Chopta </p>
             <p>3D/2N</p>
-            <img src="./Images/1.svg"></img><p>4.9/5</p>
+            <div className='star_text'><img src="/Images/1.svg"></img><p>4.9/5</p></div>
             <p>₹ 3,999/-  </p>
             <p>₹ 6,999/-  </p>
         </div>
       </SplideSlide>
       <SplideSlide className='slider_splide_react1'>
-        <img className='slider_splide_react_img' src="./Images/d.png" alt="Image 2"/>
+        <img className='slider_splide_react_img' src="/Images/d.png" alt="Image 2"/>
         <div className="one1">
             <p className="head">Rishikesh</p>
             <p>4D/3N</p>
-            <img src="./Images/1.svg"></img><p>4.9/5</p>
+            <div className='star_text'><img src="/Images/1.svg"></img><p>4.9/5</p></div>
             <p>₹ 2,499/-</p>
             <p>₹ 4,999/-</p>
         </div>
       </SplideSlide>
       <SplideSlide className='slider_splide_react1'>
-        <img className='slider_splide_react_img' src="./Images/a.png" alt="Image 1"/>
+        <img className='slider_splide_react_img' src="/Images/a.png" alt="Image 1"/>
         <div className="one1">
             <p className="head">Auli - Chopta</p>
             <p>4D/3N</p>
-            <img src="./Images/1.svg"></img><p>4.9/5</p>
+            <div className='star_text'><img src="/Images/1.svg"></img><p>4.9/5</p></div>
             <p>₹ 4,499/- </p>
             <p>₹ 7,499/- </p>
         </div>
       </SplideSlide>
       <SplideSlide className='slider_splide_react1'>
-        <img className='slider_splide_react_img' src="./Images/b.png" alt="Image 2"/>
+        <img className='slider_splide_react_img' src="/Images/b.png" alt="Image 2"/>
         <div className="one1">
             <p className="head">Auli</p>
             <p>3D/2N</p>
-            <img src="./Images/1.svg"></img><p>4.9/5</p>
+            <div className='star_text'><img src="/Images/1.svg"></img><p>4.9/5</p></div>
             <p>₹ 3,999/-  </p>
             <p>₹ 6,999/-  </p>
         </div>
       </SplideSlide>
 
       <SplideSlide className='slider_splide_react1'>
-        <img className='slider_splide_react_img' src="./Images/c.png" alt="Image 2"/>
+        <img className='slider_splide_react_img' src="/Images/c.png" alt="Image 2"/>
         <div className="one1">
             <p className="head">Chopta </p>
             <p>3D/2N</p>
-            <img src="./Images/1.svg"></img><p>4.9/5</p>
+            <div className='star_text'><img src="/Images/1.svg"></img><p>4.9/5</p></div>
             <p>₹ 3,999/-  </p>
             <p>₹ 6,999/-  </p>
         </div>
       </SplideSlide>
       <SplideSlide className='slider_splide_react1'>
-        <img className='slider_splide_react_img' src="./Images/d.png" alt="Image 2"/>
+        <img className='slider_splide_react_img' src="/Images/d.png" alt="Image 2"/>
         <div>
             <p className="head">Rishikesh</p>
             <p>4D/3N</p>
-            <img src="./Images/1.svg"></img>
+            <img src="/Images/1.svg"></img>
             <p>4.9/5</p>
             <p>₹ 2,499/-</p>
             <p>₹ 4,999/-</p>
@@ -105,87 +105,86 @@ const Destination = () => {
     <Splide className='slider_splide_react_mobile' options={ { rewind: true, perPage:2} } aria-label="React Splide Example">
         {/* <Splide options={ { rewind: true,perPage:4} } aria-label="React Splide Example"> */}
       <SplideSlide className='slider_splide_react1'>
-        <img className='slider_splide_react_img' src="./Images/a.png" alt="Image 1"/>
+        <img className='slider_splide_react_img' src="/Images/a.png" alt="Image 1"/>
         <div className="one1">
             <p className="head">Auli - Chopta</p>
             <p>4D/3N</p>
-            <img src="./Images/1.svg"></img><p>4.9/5</p>
-            <p>₹ 4,499/- </p>
-            <p>₹ 7,499/- </p>
+            <div className='star_text'><img src="/Images/1.svg"></img><p>4.9/5</p></div>
+            {/* <p>₹ 4,499/- </p>
+            <p>₹ 7,499/- </p> */}
         </div>
       </SplideSlide>
       <SplideSlide className='slider_splide_react1'>
-        <img className='slider_splide_react_img' src="./Images/b.png" alt="Image 2"/>
+        <img className='slider_splide_react_img' src="/Images/b.png" alt="Image 2"/>
         <div className="one1">
             <p className="head">Auli</p>
             <p>3D/2N</p>
-            <img src="./Images/1.svg"></img><p>4.9/5</p>
-            <p>₹ 3,999/-  </p>
-            <p>₹ 6,999/-  </p>
+            <div className='star_text'><img src="/Images/1.svg"></img><p>4.9/5</p></div>
+            {/* <p>₹ 3,999/-  </p>
+            <p>₹ 6,999/-  </p> */}
         </div>
       </SplideSlide>
 
       <SplideSlide className='slider_splide_react1'>
-        <img className='slider_splide_react_img' src="./Images/c.png" alt="Image 2"/>
+        <img className='slider_splide_react_img' src="/Images/c.png" alt="Image 2"/>
         <div className="one1">
             <p className="head">Chopta </p>
             <p>3D/2N</p>
-            <img src="./Images/1.svg"></img><p>4.9/5</p>
-            <p>₹ 3,999/-  </p>
-            <p>₹ 6,999/-  </p>
+            <div className='star_text'><img src="/Images/1.svg"></img><p>4.9/5</p></div>
+            {/* <p>₹ 3,999/-  </p>
+            <p>₹ 6,999/-  </p> */}
         </div>
       </SplideSlide>
       <SplideSlide className='slider_splide_react1'>
-        <img className='slider_splide_react_img' src="./Images/d.png" alt="Image 2"/>
+        <img className='slider_splide_react_img' src="/Images/d.png" alt="Image 2"/>
         <div className="one1">
             <p className="head">Rishikesh</p>
             <p>4D/3N</p>
-            <img src="./Images/1.svg"></img>
+            <img src="/Images/1.svg"></img>
             <p>4.9/5</p>
-            <p>₹ 2,499/-</p>
-            <p>₹ 4,999/-</p>
+            {/* <p>₹ 2,499/-</p>
+            <p>₹ 4,999/-</p> */}
         </div>
       </SplideSlide>
       <SplideSlide className='slider_splide_react1'>
-        <img className='slider_splide_react_img' src="./Images/a.png" alt="Image 1"/>
+        <img className='slider_splide_react_img' src="/Images/a.png" alt="Image 1"/>
         <div className="one1">
             <p className="head">Auli - Chopta</p>
             <p>4D/3N</p>
-            <img src="./Images/1.svg"></img><p>4.9/5</p>
-            <p>₹ 4,499/- </p>
-            <p>₹ 7,499/- </p>
+            <div className='star_text'><img src="/Images/1.svg"></img><p>4.9/5</p></div>
+            {/* <p>₹ 4,499/- </p>
+            <p>₹ 7,499/- </p> */}
         </div>
       </SplideSlide>
       <SplideSlide className='slider_splide_react1'>
-        <img className='slider_splide_react_img' src="./Images/b.png" alt="Image 2"/>
+        <img className='slider_splide_react_img' src="/Images/b.png" alt="Image 2"/>
         <div className="one1">
             <p className="head">Auli</p>
             <p>3D/2N</p>
-            <img src="./Images/1.svg"></img><p>4.9/5</p>
-            <p>₹ 3,999/-  </p>
-            <p>₹ 6,999/-  </p>
+            <div className='star_text'><img src="/Images/1.svg"></img><p>4.9/5</p></div>
+            {/* <p>₹ 3,999/-  </p>
+            <p>₹ 6,999/-  </p> */}
         </div>
       </SplideSlide>
 
       <SplideSlide className='slider_splide_react1'>
-        <img className='slider_splide_react_img' src="./Images/c.png" alt="Image 2"/>
+        <img className='slider_splide_react_img' src="/Images/c.png" alt="Image 2"/>
         <div className="one1">
             <p className="head">Chopta </p>
             <p>3D/2N</p>
-            <img src="./Images/1.svg"></img><p>4.9/5</p>
-            <p>₹ 3,999/-  </p>
-            <p>₹ 6,999/-  </p>
+            <div className='star_text'><img src="/Images/1.svg"></img><p>4.9/5</p></div>
+            {/* <p>₹ 3,999/-  </p>
+            <p>₹ 6,999/-  </p> */}
         </div>
       </SplideSlide>
       <SplideSlide className='slider_splide_react1'>
-        <img className='slider_splide_react_img' src="./Images/d.png" alt="Image 2"/>
-        <div>
+        <img className='slider_splide_react_img' src="/Images/d.png" alt="Image 2"/>
+        <div className="one1">
             <p className="head">Rishikesh</p>
             <p>4D/3N</p>
-            <img src="./Images/1.svg"></img>
-            <p>4.9/5</p>
-            <p>₹ 2,499/-</p>
-            <p>₹ 4,999/-</p>
+            <div className='star_text'><img src="/Images/1.svg"></img><p>4.9/5</p></div>
+            {/* <p>₹ 2,499/-</p>
+            <p>₹ 4,999/-</p> */}
         </div>
       </SplideSlide>
     </Splide>

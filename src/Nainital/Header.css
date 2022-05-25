@@ -22,6 +22,7 @@
 .Nainital_logo {
     display: flex;
     height: 44px !important;
+    padding-left: 32px ;
 }
 
 .FirstHome__input_forheader {
@@ -260,5 +261,10 @@
         height: fit-content;
         align-items: center;
         justify-content: center;
+    }
+    .Nainital_logo {
+        display: flex;
+        height: 44px !important;
+        padding-left: 0px ;
     }
 }

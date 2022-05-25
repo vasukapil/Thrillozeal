@@ -1,41 +1,39 @@
-.bullet-points li{
-    display: inline-block;
-}
-.bullet-points ul div{
-   width: 60vw;
-}
-.bullet-points ul{
-    width: 60vw;
-}
-.Trek h1{
-    width: 60vw;
+
+.Trek h1 {
+    /* width: 60vw; */
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 28px;
-line-height: 34px;
-padding: 25px;
-
-color: #57BEBE;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    padding: 12px 0 12px 6px;
+    color: #57BEBE;
 }
-
-@media (max-width:600px){
-
-    .bullet-points li{
-        display: inline;
-    }
-    .bullet-points ul{
-        width: 100%;
-    }
-    .bullet-points ul div{
-        width: 100%;
-    }
-    .Trek h1{
+.trek_highlights{
+    display: flex;
+    padding: 4px 0 4px 6px;
+}
+.trek_highlights>div{
+    padding-left: 12px;
+}
+.trek_highlights>img{
+    display: flex;
+    height: 18px;
+    padding-top: 4px;
+}
+.trek_highlights>div>span{
+    /* display: flex; */
+    height: fit-content;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.55);
+}
+@media (max-width:600px) {
+    .Trek h1 {
         text-align: left;
         padding-left: 0;
     }
-    .bullet-points ul div img{
-        margin-right: 5px;
-    }
-
 }

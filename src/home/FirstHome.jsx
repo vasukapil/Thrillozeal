@@ -13,12 +13,12 @@ import search from './img/search.png';
 import dropdown from './img/Vector.svg';
 import map from './img/map-pin.png';
 import arrow from './img/Arrow 1.png';
-import icon1 from './img/icon 1.png'
-import icon2 from './img/icon 2.png'
-import icon3 from './img/icon 3.png'
-import icon4 from './img/icon 4.png'
-import icon5 from './img/icon 5.png'
-import icon6 from './img/icon 6.png'
+import icon1 from './img/icon 1.png';
+import icon2 from './img/icon 2.png';
+import icon3 from './img/icon 3.png';
+import icon4 from './img/icon 4.png';
+import icon5 from './img/icon 5.png';
+import icon6 from './img/icon 6.png';
 import background1theme from './img/Ellipse 1 (5).png'
 import background2theme from './img/Ellipse 1.png'
 import background3theme from './img/Ellipse 1 (4).png'
@@ -29,6 +29,13 @@ import menu from './img/menu.png'
 import Secondpage from './Secondpage';
 import { useHistory } from 'react-router-dom';
 import { useStateValue } from '../StateProvider';
+import Destination from '../Components/Destinations/Destination';
+import Footer from '../Components/Footer/Footer';
+import ExploreCities from './ExploreCities';
+import Testimonials from './Testimonials';
+import Add from './Add';
+import Add2 from './Add2';
+import Travel from '../Main/Travel';
 function FirstHome() {
 
     const history = useHistory();
@@ -205,18 +212,25 @@ function FirstHome() {
                             </div>
                         </div>
                         <div className="secondbox_row2">
-                            <div className="changeArrow">
-                                <img src={arrow} className="changeArrowImg" onClick={function1} alt="" />
+                            <div className="changeArrow" onClick={function1}>
+                                <img src={arrow} className="changeArrowImg" alt="" />
                             </div>
                             <img src={number} className="changeIcon" alt="" />
-                            <div className="changeArrow">
-                                <img src={arrow} className="changeArrowImg" onClick={function1} alt="" />
+                            <div className="changeArrow" onClick={function1}>
+                                <img src={arrow} className="changeArrowImg" alt="" />
                             </div>
                         </div>
 
                     </div>
                 </div>
             </div>
+            <Destination/>
+            <ExploreCities/>
+            <Add/>
+            <Travel/>
+            <Add2/>
+            <Testimonials/>
+            <Footer/>
         </>
     )
 }
